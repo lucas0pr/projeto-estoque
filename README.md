@@ -6,7 +6,7 @@ Uma aplicação web interativa desenvolvida em Python que permite o upload de da
 
 **Tema:** Análise de Estoque e Rentabilidade de Produtos Eletrônicos.
 
-**Fonte dos Dados:** O projeto utiliza o dataset [Amazon Electronics Products Sales](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) disponível no Kaggle. Este dataset contém informações sobre avaliações de usuários para produtos eletrônicos da Amazon.
+**Fonte dos Dados:** O projeto utiliza o dataset [Amazon Electronics Products Sales](https://www.kaggle.com/datasets/edusanketdk/electronics) disponível no Kaggle. Este dataset contém informações sobre avaliações de usuários para produtos eletrônicos da Amazon.
 
 ## ⚠️ Geração de Dados Sintéticos (Metodologia)
 
@@ -49,8 +49,8 @@ Siga os passos abaixo para reproduzir o ambiente e executar a aplicação localm
 
 1.  **Clonar o Repositório:**
     ```bash
-    git clone <link-do-seu-repositorio>
-    cd projeto-estoque-ml
+    git clone <https://github.com/lucas0pr/projeto-estoque.git>
+    cd projeto-estoque
     ```
 
 2.  **Criar Ambiente Virtual:**
