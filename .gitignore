@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+*.db
+
+# Dados (para não commitar arquivos grandes)
+dados/raw/*
+dados/processed/*
+!dados/raw/.gitkeep
+!dados/processed/.gitkeep
+
+# Modelos treinados
+modelos/*.pkl
+!modelos/.gitkeep
+
+# Outros
+.DS_Store
