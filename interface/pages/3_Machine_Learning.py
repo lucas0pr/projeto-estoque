@@ -16,7 +16,6 @@ import joblib
 
 from scripts import database
 
-
 DEMO_MODE = True  
 st.set_page_config(page_title="Machine Learning", layout="wide")
 
