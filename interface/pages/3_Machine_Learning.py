@@ -16,8 +16,8 @@ import joblib
 
 from scripts import database
 
-# --- CONFIGURAÇÕES ---
-DEMO_MODE = False  
+
+DEMO_MODE = True  
 st.set_page_config(page_title="Machine Learning", layout="wide")
 
 # --- Título ---
@@ -225,7 +225,7 @@ if st.button("🔮 Prever Sucesso do Produto"):
         else:
             st.error(f"😞 O produto foi classificado como **NÃO BEM-SUCEDIDO** com {confidence*100:.1f}% de confiança.")
     else:
-        # Modo manual / real
+        
         if pipeline is None:
             st.error("Por favor, treine o modelo primeiro!")
         else:
